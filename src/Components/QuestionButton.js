@@ -33,6 +33,7 @@ function QuestionButton(props) {
                 bg='#F5F5F5'
                 margin='30px'
                 transition='background-color 0.2s; color 0.2s;'
+                cursor='pointer'
                 _hover={{
                     background: '#FDB515',
                 }}
