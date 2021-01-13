@@ -26,8 +26,8 @@ function QuestionButton(props) {
     return (
         <Box>
             <Box
-                w='270px'
-                h='180px'
+                w='220px'
+                h='150px'
                 boxShadow="xl"
                 borderRadius='1vw'
                 bg='#F5F5F5'
@@ -35,7 +35,8 @@ function QuestionButton(props) {
                 transition='background-color 0.2s; color 0.2s;'
                 cursor='pointer'
                 _hover={{
-                    background: '#FDB515',
+                    background: '#0C3E73',
+                    color: '#FFFFFF',
                 }}
                 onClick={toggleVideo}
             >
