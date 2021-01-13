@@ -3,6 +3,9 @@ This is a website built to allow prospective applicants and employers to browse 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Current Functionality Demonstration
+![](metmarketing.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
