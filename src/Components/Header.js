@@ -10,7 +10,7 @@ function Header () {
                     Welcome to M.E.T.
                 </Box>
                 <Box fontSize='1rem'>
-                    Discover what students have to say about the program.
+                    Discover what students have to say about the M.E.T. program.
                 </Box>
             <Box h='3vh' />
         </Box>
