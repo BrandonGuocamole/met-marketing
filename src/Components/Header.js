@@ -11,7 +11,7 @@ function Header () {
             </a>
             <Box h='8vh' />
             <Box fontWeight='600'>
-                Berkeley M.E.T. Student Profiles
+                Welcome to M.E.T.
             </Box>
             <Box fontSize='1rem'>
                 Discover what students have to say about the program.
