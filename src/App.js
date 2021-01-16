@@ -3,19 +3,20 @@ import Header from './Components/Header'
 import Questions from './Components/Questions'
 import MediaProfile from './Components/MediaProfile'
 import { Box, Image, Editable, Button, EditablePreview, EditableInput, InputGroup, Input, InputRightElement, Center, useToast } from '@chakra-ui/react'
-
+import Internships from './Components/Internships.js'
 function PasswordInput({ value, onChange }) {
   const [show, setShow] = React.useState(false)
   const handleClick = () => setShow(!show)
 
   return (
     <Center>
-      <InputGroup size="md" w='20%'>
+      <InputGroup size="md" w='auto'>
         <Input
           pr="4.5rem"
           type={show ? "text" : "password"}
           placeholder="Enter password"
           value={value}
+          width='300px'
           onChange={onChange}
         />
         <InputRightElement width="4.5rem">
@@ -63,7 +64,7 @@ function App() {
           textAlign='center'
         >
           <a href="https://met.berkeley.edu/">
-            <Image width='20%' margin='2% auto' src='https://cdn-s.acuityscheduling.com/logo14049993.png?1501611666&hasAlpha=1&rectangular=1' />
+            <Image width='20%' minWidth='30vh' margin='2% auto' src='https://cdn-s.acuityscheduling.com/logo14049993.png?1501611666&hasAlpha=1&rectangular=1' />
           </a>
           <Box fontSize={70} margin='12vh auto'>Welcome to M.E.T.</Box>
           <Box margin='1% auto'>Enter your code.</Box>
@@ -79,6 +80,7 @@ function App() {
             <Header passcode={password} />
             <Questions />
             <MediaProfile />
+            <Internships />
           </div>
         )}
 

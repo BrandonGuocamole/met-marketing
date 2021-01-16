@@ -13,7 +13,7 @@ function Welcome() {
                 <Image width='20%' margin='2% auto' src='https://cdn-s.acuityscheduling.com/logo14049993.png?1501611666&hasAlpha=1&rectangular=1' />
             </a>
             <Box fontSize={70} margin='12vh auto'>Welcome to M.E.T.</Box>
-            <Editable width='20%' placeholder="Enter your code." bg='#f3f3f3' borderRadius='5%' fontSize={25} margin='auto'>
+            <Editable width='40%' placeholder="Enter your code." bg='#f3f3f3' borderRadius='5%' fontSize={25} margin='auto'>
                 <EditablePreview />
                 <EditableInput />
             </Editable>
