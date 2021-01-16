@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from './Components/Header'
 import Questions from './Components/Questions'
-import Welcome from './Welcome.js'
+import MediaProfile from './Components/MediaProfile'
 import { Box, Image, Editable, Button, EditablePreview, EditableInput, InputGroup, Input, InputRightElement, Center, useToast } from '@chakra-ui/react'
 
-function PasswordInput({ value, onChange}) {
+function PasswordInput({ value, onChange }) {
   const [show, setShow] = React.useState(false)
   const handleClick = () => setShow(!show)
 
@@ -29,13 +29,13 @@ function PasswordInput({ value, onChange}) {
 }
 
 function App() {
-  
+
   const [password, setPassword] = React.useState('')
   const onPasswordChange = event => setPassword(event.target.value);
   const [unlocked, setUnlocked] = React.useState(false)
   const toast = useToast();
 
-  const correctPassword = ['1234','berkeleymet2025']
+  const correctPassword = ['1234', 'berkeleymet2025']
 
   const onPasswordSubmit = () => {
     if (correctPassword.includes(password)) {
@@ -52,35 +52,36 @@ function App() {
   }
 
   return (
-    
+
     <div className="App">
       { !unlocked ? (
-      <Box
-        w='100%'
-        h='100%'
-        position='fixed'
-        bg='white'
-        textAlign='center'
-      >
-        <a href="https://met.berkeley.edu/">
-          <Image width='20%' margin='2% auto' src='https://cdn-s.acuityscheduling.com/logo14049993.png?1501611666&hasAlpha=1&rectangular=1' />
-        </a>
-        <Box fontSize={70} margin='12vh auto'>Welcome to M.E.T.</Box>
-        <Box margin='1% auto'>Enter your code.</Box>
-        <PasswordInput onChange={onPasswordChange} value={password} />
-        <Button color='white' margin='10vh auto' bg="#003262" _hover={{ color: '#003262', bg: 'white' }} variant="solid" onClick={onPasswordSubmit}>
-          Submit
+        <Box
+          w='100%'
+          h='100%'
+          position='fixed'
+          bg='white'
+          textAlign='center'
+        >
+          <a href="https://met.berkeley.edu/">
+            <Image width='20%' margin='2% auto' src='https://cdn-s.acuityscheduling.com/logo14049993.png?1501611666&hasAlpha=1&rectangular=1' />
+          </a>
+          <Box fontSize={70} margin='12vh auto'>Welcome to M.E.T.</Box>
+          <Box margin='1% auto'>Enter your code.</Box>
+          <PasswordInput onChange={onPasswordChange} value={password} />
+          <Button color='white' margin='10vh auto' bg="#003262" _hover={{ color: '#003262', bg: 'white' }} variant="solid" onClick={onPasswordSubmit}>
+            Submit
         </Button>
-      </Box>
+        </Box>
       )
-       : 
-       (
-         <div>
-      <Header passcode={password} />
-      <Questions />
-      </div>
-       )}
-      
+        :
+        (
+          <div>
+            <Header passcode={password} />
+            <Questions />
+            <MediaProfile />
+          </div>
+        )}
+
     </div>
   );
 }
