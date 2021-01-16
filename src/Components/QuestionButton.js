@@ -26,8 +26,8 @@ function QuestionButton(props) {
     return (
         <Box>
             <Box
-                w='220px'
-                h='150px'
+                w='300px'
+                h='200px'
                 boxShadow="xl"
                 borderRadius='1vw'
                 bg='#F5F5F5'
@@ -42,7 +42,7 @@ function QuestionButton(props) {
             >
                 <Box h='10%' />
                 <Image src={props.icon} h='60%' margin='0 auto' />
-                <Box fontSize='1.5rem'>
+                <Box fontSize='1.4rem' textAlign='center'>
                     <Center>
                         {props.title}
                     </Center>
@@ -51,7 +51,7 @@ function QuestionButton(props) {
             </Box>
 
             {/* This is the ternary operator that allows the video display to be shown when the icon is clicked. */}
-            {showVideo ? <Box><VideoDisplayer />{xButton}</Box> : null}
+            {showVideo ? <Box><VideoDisplayer title={props.title} />{xButton}</Box> : null}
         </Box>
     )
 

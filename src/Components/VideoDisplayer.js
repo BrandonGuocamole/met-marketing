@@ -1,6 +1,6 @@
 import React from 'react'
 import {Box, AspectRatio,} from '@chakra-ui/react'
-function VideoDisplayer () {
+function VideoDisplayer (props) {
     return (
         <Box position='fixed' left='0px' top='0px' w='100vw' h='100vh' bg='rgba(0, 0, 0, 0.3)'>
             <Box
@@ -20,10 +20,10 @@ function VideoDisplayer () {
             >
                 <Box h='10%'/>
                 <AspectRatio maxW='70%' maxH='70%' margin='0 auto'>
-                <iframe title='Example Playlist' src="https://www.youtube.com/embed/videoseries?list=PLFsQleAWXsj_4yDeebiIADdH5FMayBiJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe src="https://drive.google.com/file/d/1Tk-r51mLtxqAAC9O0eV2rYHYTbejBfmC/preview" width="640" height="480"></iframe>
                 </AspectRatio>
                 <br />
-                Heading Here.
+                {props.title}
             </Box>
         </Box>
     )
