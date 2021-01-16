@@ -12,7 +12,7 @@ function Questions () {
 
     const questionList = [
         {id: 1, title: 'Dual Degree', icon: 'https://www.flaticon.com/svg/static/icons/svg/61/61514.svg'},
-        {id: 2, title: 'Research', icon: 'https://www.flaticon.com/svg/vstatic/svg/3915/3915535.svg?token=exp=1610653124~hmac=ca3e53851f8c6e7edbc26295df3872a1'},
+        {id: 2, title: 'Research', icon: 'https://cdn2.iconfinder.com/data/icons/science-solid-icons-vol-2/48/083-512.png'},
         {id: 3, title: 'Students', icon: 'https://www.flaticon.com/svg/vstatic/svg/535/535572.svg?token=exp=1610653276~hmac=190a4746524f283bb2cf168ed6fd5662'},
         {id: 4, title: 'Extracurriculars', icon: 'https://www.flaticon.com/svg/vstatic/svg/2445/2445595.svg?token=exp=1610653362~hmac=fbc215d67efee551785d9c6c7cf897e1'},
         {id: 5, title: 'Challenge', icon: 'https://www.flaticon.com/svg/vstatic/svg/2726/2726760.svg?token=exp=1610653400~hmac=d318ba7a25008240f35c8346bdff1028'},
