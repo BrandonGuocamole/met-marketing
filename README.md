@@ -1,4 +1,6 @@
 # Project Description
+Currently hosted on [Heroku](https://met-marketing.herokuapp.com/)
+
 This is a website built to allow prospective applicants and employers to browse video responses to common questions about the Berkeley M.E.T. program.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
