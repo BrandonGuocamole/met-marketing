@@ -67,7 +67,7 @@ function App() {
             <Image width='20%' minWidth='30vh' margin='2% auto' src='https://cdn-s.acuityscheduling.com/logo14049993.png?1501611666&hasAlpha=1&rectangular=1' />
           </a>
           <Box fontSize={70} margin='12vh auto'>Welcome to M.E.T.</Box>
-          <Box margin='1% auto'>Enter your code.</Box>
+          <Box margin='1% auto'>Enter your access code.</Box>
           <PasswordInput onChange={onPasswordChange} value={password} />
           <Button color='white' margin='10vh auto' bg="#003262" _hover={{ color: '#003262', bg: 'white' }} variant="solid" onClick={onPasswordSubmit}>
             Submit
