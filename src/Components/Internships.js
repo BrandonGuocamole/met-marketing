@@ -5,15 +5,12 @@ function Internships () {
     return (
         <Box>
             <Center>   
-                <Box marginTop='4%' marginBottom='3%' fontSize={30} fontWeight={600} textAlign='center'>
+                <Box marginTop='2%' marginBottom='1%' fontSize={30} fontWeight={600} textAlign='center'>
                     Career Opportunities
-                    <Box fontSize={20} fontWeight={400}> 
-                        View freshman and sophomore year internship offers to M.E.T. students.
-                    </Box>
                 </Box>
             </Center>
             <Center>
-                <Image src='https://i.imgur.com/dbNPDvA.png'/>
+                <Image src='https://i.imgur.com/aGYCi6t.png'/>
             </Center>
         </Box>
     )

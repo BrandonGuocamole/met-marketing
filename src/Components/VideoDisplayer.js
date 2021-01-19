@@ -21,7 +21,7 @@ function VideoDisplayer (props) {
                 <Box h='10%'/>
                 <AspectRatio maxW='70%' maxH='70%' margin='0 auto'>
                 <iframe src="https://drive.google.com/file/d/1Tk-r51mLtxqAAC9O0eV2rYHYTbejBfmC/preview" width="640" height="480"></iframe>
-                </AspectRatio>
+                                </AspectRatio>
                 <br />
                 {props.title}
             </Box>
