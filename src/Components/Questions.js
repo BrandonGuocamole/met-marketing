@@ -28,13 +28,14 @@ function Questions (props) {
         {id: 14, title: 'Software & Engineering Careers', icon: 'https://static.thenounproject.com/png/2450624-200.png'},
         {id: 15, title: 'Business Careers', icon: 'https://i.imgur.com/SeopN4P.png'},
         {id: 16, title: 'Product Management Careers', icon: 'https://i.imgur.com/Y2cxQS3.png'},
-        {id: 17, title: 'Kleiner Perkins Fellows Internships', icon: 'https://i.imgur.com/vzj0e8N.png'},
-        {id: 18, title: 'YCombinator/Skydeck Guaranteed Internships', icon: 'https://i.imgur.com/F4bQfX5.png'},
-        {id: 19, title: 'BioE & Business', icon: 'https://static.thenounproject.com/png/2725688-200.png'},
-        {id: 20, title: 'EECS & Business', icon: 'https://i.imgur.com/kGiwi4d.png'},
-        {id: 21, title: 'MechE & Business', icon: 'https://static.thenounproject.com/png/2464439-200.png'},
-        {id: 22, title: 'MSE & Business', icon: 'https://cdn.icon-icons.com/icons2/390/PNG/512/materials-science_39018.png'},
-        {id: 23, title: 'IEOR & Business', icon: 'https://i.pinimg.com/originals/df/2d/eb/df2deb53719aa039c92d326bc405b565.png'},
+        {id: 17, title: 'Biotech Careers', icon: 'https://image.flaticon.com/icons/png/512/3/3844.png'},
+        {id: 18, title: 'Kleiner Perkins Fellows Internships', icon: 'https://i.imgur.com/vzj0e8N.png'},
+        {id: 19, title: 'YCombinator/Skydeck Guaranteed Internships', icon: 'https://i.imgur.com/F4bQfX5.png'},
+        {id: 20, title: 'BioE & Business', icon: 'https://static.thenounproject.com/png/2725688-200.png'},
+        {id: 21, title: 'EECS & Business', icon: 'https://i.imgur.com/kGiwi4d.png'},
+        {id: 22, title: 'MechE & Business', icon: 'https://static.thenounproject.com/png/2464439-200.png'},
+        {id: 23, title: 'MSE & Business', icon: 'https://www.nicepng.com/png/full/278-2781253_molecular-lattice-physics-molecules-crystal-science-icon.png'},
+        {id: 24, title: 'IEOR & Business', icon: 'https://i.pinimg.com/originals/df/2d/eb/df2deb53719aa039c92d326bc405b565.png'},
 
     ]
 
