@@ -12,7 +12,7 @@ function Header () {
             </a>
             <Box h='8vh' />
             <Center>   
-                <Box marginTop='4%' marginBottom='3%' fontSize={40} fontWeight={600} textAlign='center'>
+                <Box marginTop='4%' marginBottom='2%' fontSize={40} fontWeight={600} textAlign='center'>
                 We Created This Program Just For You
                     <Box marginX='100px' marginTop='1%' fontSize={20} fontWeight={400}> 
                     Congratulations!  Your admittance to M.E.T. has given you the unique opportunity to study both technology and business, earning two degrees in four years in an intimate setting with unparalleled resources and a cohort of 50 like minded dual-passioned individuals, all within the number one public university in the world with the scope and scale to offer everything you can imagine.  
