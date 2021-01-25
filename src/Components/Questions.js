@@ -13,19 +13,19 @@ function Questions (props) {
 
     const questionList = [
         {id: 1, title: 'Two Degrees in Four Years', icon: 'https://i.imgur.com/OgglPvX.png'},
-        {id: 2, title: 'Research', icon: 'https://cdn2.iconfinder.com/data/icons/science-solid-icons-vol-2/48/083-512.png'},
-        {id: 3, title: 'Students', icon: 'https://iconarchive.com/download/i89170/icons8/ios7/Users-Student-Filled.ico'},
-        {id: 4, title: 'Extracurriculars', icon: 'https://i.imgur.com/MN8pekf.png'},
+        {id: 2, title: 'Research', source: 'https://www.youtube.com/embed/eqYmOqY2mIE', icon: 'https://cdn2.iconfinder.com/data/icons/science-solid-icons-vol-2/48/083-512.png'},
+        {id: 3, title: 'Students', source: 'https://www.youtube.com/embed/wutiE65RsXk', icon: 'https://iconarchive.com/download/i89170/icons8/ios7/Users-Student-Filled.ico'},
+        {id: 4, title: 'Extracurriculars', source:'https://www.youtube.com/embed/sNybhKSsNpQ', icon: 'https://i.imgur.com/MN8pekf.png'},
         {id: 5, title: 'Challenge', icon: 'https://static.thenounproject.com/png/3405816-200.png'},
-        {id: 6, title: 'Community', icon: 'https://image.flaticon.com/icons/png/512/14/14598.png'},
-        {id: 7, title: 'Berkeley, Bay Area & Silicon Valley', source: 'https://drive.google.com/file/d/1Tk-r51mLtxqAAC9O0eV2rYHYTbejBfmC/preview', icon: 'https://i.ebayimg.com/images/g/IVUAAOSwkFZcNZM-/s-l300.png'},
-        {id: 8, title: 'Resources', icon: 'https://static.thenounproject.com/png/3031208-200.png'},
+        {id: 6, title: 'Community', source:'https://www.youtube.com/embed/V60-q_xdjd0', icon: 'https://image.flaticon.com/icons/png/512/14/14598.png'},
+        {id: 7, title: 'Berkeley, Bay Area & Silicon Valley', source: 'https://www.youtube.com/embed/bbFoiq4bovA', icon: 'https://i.ebayimg.com/images/g/IVUAAOSwkFZcNZM-/s-l300.png'},
+        {id: 8, title: 'Resources', source:'https://www.youtube.com/embed/PX9Qlpns_3Q', icon: 'https://static.thenounproject.com/png/3031208-200.png'},
         {id: 9, title: 'Choosing M.E.T.', icon: 'https://static.thenounproject.com/png/972712-200.png'},
-        {id: 10, title: 'Diversity & Social Impact', icon: 'https://static.thenounproject.com/png/1711240-200.png'},
-        {id: 11, title: 'Recruiting', icon: 'https://cdn.onlinewebfonts.com/svg/img_115065.png'},
-        {id: 12, title: 'Startups', icon: 'https://static.thenounproject.com/png/843013-200.png'},
-        {id: 13, title: 'Small School within World-Class University', icon: 'https://i.imgur.com/Ahg0M0n.png'},
-        {id: 14, title: 'Software & Engineering Careers', icon: 'https://static.thenounproject.com/png/2450624-200.png'},
+        {id: 10, title: 'Diversity & Social Impact', source: 'https://www.youtube.com/embed/3AYZzNenVfU', icon: 'https://static.thenounproject.com/png/1711240-200.png'},
+        {id: 11, title: 'Recruiting', source: 'https://www.youtube.com/embed/FvzomQR0YPI', icon: 'https://cdn.onlinewebfonts.com/svg/img_115065.png'},
+        {id: 12, title: 'Startups', source: 'https://www.youtube.com/embed/wYm6qsZ9B-E', icon: 'https://static.thenounproject.com/png/843013-200.png'},
+        {id: 13, title: 'Small School within World-Class University', source: 'https://www.youtube.com/embed/vS7qBBiJU2E', icon: 'https://i.imgur.com/Ahg0M0n.png'},
+        {id: 14, title: 'Software & Engineering Careers', source:'https://www.youtube.com/embed/65WTpXGhAJE', icon: 'https://static.thenounproject.com/png/2450624-200.png'},
         {id: 15, title: 'Business Careers', icon: 'https://i.imgur.com/SeopN4P.png'},
         {id: 16, title: 'Product Management Careers', icon: 'https://i.imgur.com/Y2cxQS3.png'},
         {id: 17, title: 'Biotech Careers', icon: 'https://image.flaticon.com/icons/png/512/3/3844.png'},
@@ -42,7 +42,7 @@ function Questions (props) {
     const passcode = props.passcode
 
     const questionButtons = questionList.map((buttonInfo) =>
-        <QuestionButton key={buttonInfo.id} title={buttonInfo.title} icon={buttonInfo.icon}/>
+        <QuestionButton source={buttonInfo.source} key={buttonInfo.id} title={buttonInfo.title} icon={buttonInfo.icon}/>
     )
 
     return (

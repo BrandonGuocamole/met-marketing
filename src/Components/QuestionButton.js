@@ -51,7 +51,7 @@ function QuestionButton(props) {
             </Box>
 
             {/* This is the ternary operator that allows the video display to be shown when the icon is clicked. */}
-            {showVideo ? <Box><VideoDisplayer title={props.title} />{xButton}</Box> : null}
+            {showVideo ? <Box><VideoDisplayer source={props.source} title={props.title} />{xButton}</Box> : null}
         </Box>
     )
 
