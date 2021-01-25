@@ -13,7 +13,7 @@ function Footer() {
         paddingBottom="2%"
         fontWeight={600}
       >
-        Created by Students in M.E.T.{" "}
+        M.E.T. Admit Website Created by M.E.T. Students{" "}
       </Box>{" "}
     </Center>
   );
