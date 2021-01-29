@@ -28,9 +28,10 @@ function VideoDisplayer(props) {
         <Box h="10%" />
         <AspectRatio maxW="70%" maxH="70%" margin="0 auto">
           <iframe
+          class = "vid"
             width="560"
             height="315"
-            src={props.source ? props.source.concat("?&autoplay=1") : 'https://www.youtube.com/embed/eqYmOqY2mIE'.concat("?&autoplay=1")}
+            src={props.source ? props.source.concat("?&autoplay=1&&showinfo=0&rel=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none") : 'https://www.youtube.com/embed/eqYmOqY2mIE'.concat("?&autoplay=1&&rel=0&showinfo=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none")}
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen="allowfullscreen"
