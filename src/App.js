@@ -5,10 +5,7 @@ import MediaProfile from "./Components/MediaProfile";
 import {
   Box,
   Image,
-  Editable,
   Button,
-  EditablePreview,
-  EditableInput,
   InputGroup,
   Input,
   InputRightElement,
@@ -18,35 +15,15 @@ import {
 import Internships from "./Components/Internships.js";
 import Footer from "./Components/Footer.js";
 import ChatButton from "./Components/ChatButton.js";
-import StaffChatButton from './Components/StaffChatButton.js';
-
-function PasswordInput({ value, onChange }) {
-  const [show, setShow] = React.useState(false);
-  const handleClick = () => setShow(!show);
-
-  return (
-    <Center>
-      <InputGroup size="md" w="auto">
-        <Input
-          pr="4.5rem"
-          type={show ? "text" : "password"}
-          placeholder="Enter password"
-          value={value}
-          width="300px"
-          onChange={onChange}
-        />{" "}
-        <InputRightElement width="4.5rem">
-          <Button h="1.75rem" size="sm" onClick={handleClick}>
-            {" "}
-            {show ? "Hide" : "Show"}{" "}
-          </Button>{" "}
-        </InputRightElement>{" "}
-      </InputGroup>{" "}
-    </Center>
-  );
-}
 
 function App() {
+  const [show, setShow] = React.useState(false);
+  const handleClick = () => setShow(!show);
+  const checkIfSubmitting = (e) => {
+    if (e.keyCode === 13) {
+      onPasswordSubmit(e.target.value);
+    }
+  };
   const [password, setPassword] = React.useState("");
   const onPasswordChange = (event) => setPassword(event.target.value);
   const [unlocked, setUnlocked] = React.useState(false);
@@ -90,7 +67,25 @@ function App() {
             We Created This Program Just For You{" "}
           </Box>{" "}
           <Box margin="1% auto"> Enter your access code. </Box>{" "}
-          <PasswordInput onChange={onPasswordChange} value={password} />{" "}
+          <Center>
+            <InputGroup size="md" w="auto">
+              <Input
+                pr="4.5rem"
+                type={show ? "text" : "password"}
+                placeholder="Enter password"
+                value={password}
+                width="300px"
+                onChange={onPasswordChange}
+                onKeyDown={checkIfSubmitting}
+              />{" "}
+              <InputRightElement width="4.5rem">
+                <Button h="1.75rem" size="sm" onClick={handleClick}>
+                  {" "}
+                  {show ? "Hide" : "Show"}{" "}
+                </Button>{" "}
+              </InputRightElement>{" "}
+            </InputGroup>{" "}
+          </Center>{" "}
           <Button
             color="white"
             margin="10"
@@ -104,7 +99,7 @@ function App() {
         </Box>
       ) : (
         <div>
-          <Header passcode={password} /> 
+          <Header passcode={password} />
           <ChatButton />
           <Questions />
           <MediaProfile />
