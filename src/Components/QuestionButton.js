@@ -85,7 +85,7 @@ function QuestionButton(props) {
                       ? props.source.concat(
                           "?&autoplay=1&&showinfo=0&rel=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none"
                         )
-                      : "https://www.youtube.com/embed/eqYmOqY2mIE".concat(
+                      : "https://player.vimeo.com/video/506326794".concat(
                           "?&autoplay=1&&rel=0&showinfo=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none"
                         )
                   }

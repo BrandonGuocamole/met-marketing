@@ -34,6 +34,21 @@ function ChatButton() {
               }}
           > Chat with an M.E.T. Staff Member </Button>
         </a>
+        <Box w='5vw'/>
+        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/groups/827664374327836/">
+          <Button
+              bg='#3B7EA1'
+              color='white'
+              boxShadow="xl"
+              fontSize='1.2rem'
+              fontWeight={600}
+              marginBottom='5%'
+              _hover={{
+                  background: '#F5F5F5',
+                  color: '#000000',
+              }}
+          > Join the M.E.T. Facebook Admit Group </Button>
+        </a>
       </Flex>
     </Center>
   );
