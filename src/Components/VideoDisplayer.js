@@ -4,11 +4,12 @@ function VideoDisplayer(props) {
   return (
     <Box
       position="fixed"
-      left="0px"
-      top="0px"
-      w="100vw"
-      h="100vh"
+      left={0}
+      top={0}
+      right={0}
+      bottom={0}
       bg="rgba(0, 0, 0, 0.3)"
+      hidden={props.hidden}
     >
       <Box
         bg="white"
@@ -22,8 +23,7 @@ function VideoDisplayer(props) {
         fontSize="1.5rem"
         fontWeight="600"
         textAlign="center"
-        maxH="80vw"
-        minW="50vh"
+        maxH="70vw"
       >
         <Box h="10%" />
         <AspectRatio maxW="70%" maxH="70%" margin="0 auto">

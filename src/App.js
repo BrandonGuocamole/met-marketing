@@ -18,7 +18,8 @@ import {
 import Internships from "./Components/Internships.js";
 import Footer from "./Components/Footer.js";
 import ChatButton from "./Components/ChatButton.js";
-import StaffChatButton from './Components/StaffChatButton.js';
+import StaffChatButton from "./Components/StaffChatButton.js";
+
 
 function PasswordInput({ value, onChange }) {
   const [show, setShow] = React.useState(false);
@@ -104,7 +105,7 @@ function App() {
         </Box>
       ) : (
         <div>
-          <Header passcode={password} /> 
+          <Header passcode={password} />
           <ChatButton />
           <Questions />
           <MediaProfile />
