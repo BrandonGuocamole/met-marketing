@@ -5,10 +5,7 @@ import MediaProfile from "./Components/MediaProfile";
 import {
   Box,
   Image,
-  Editable,
   Button,
-  EditablePreview,
-  EditableInput,
   InputGroup,
   Input,
   InputRightElement,
@@ -18,7 +15,6 @@ import {
 import Internships from "./Components/Internships.js";
 import Footer from "./Components/Footer.js";
 import ChatButton from "./Components/ChatButton.js";
-import StaffChatButton from "./Components/StaffChatButton.js";
 
 
 function PasswordInput({ value, onChange }) {
