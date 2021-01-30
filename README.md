@@ -1,5 +1,5 @@
 # Project Description
-Currently hosted on [Heroku](https://met-marketing.herokuapp.com/)
+Currently hosted on [met-admit.com](https://met-admit.com/)
 
 This is a website built to allow prospective applicants and employers to browse video responses to common questions about the Berkeley M.E.T. program.
 
