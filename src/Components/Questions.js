@@ -3,7 +3,6 @@ import QuestionButton from './QuestionButton.js'
 import {
     Flex,
     Center,
-    Box,
 } from '@chakra-ui/react'
 
 function Questions (props) {
@@ -39,7 +38,6 @@ function Questions (props) {
 
     ]
 
-    const passcode = props.passcode
 
     const questionButtons = questionList.map((buttonInfo) =>
         <QuestionButton source={buttonInfo.source} key={buttonInfo.id} title={buttonInfo.title} icon={buttonInfo.icon}/>

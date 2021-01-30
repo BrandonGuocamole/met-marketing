@@ -1,5 +1,5 @@
 import React from "react";
-import { Center, Box, Image } from "@chakra-ui/react";
+import { Center, Box, } from "@chakra-ui/react";
 
 function Footer() {
   return (

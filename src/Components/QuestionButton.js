@@ -10,19 +10,7 @@ function QuestionButton(props) {
   function toggleVideo() {
     setShowVideo(!showVideo);
   }
-  const xButton = (
-    <Button
-      color="#003262"
-      variant="solid"
-      zIndex={3}
-      position="fixed"
-      onClick={toggleVideo}
-      right="22vw"
-      top="17vh"
-    >
-      Close
-    </Button>
-  );
+
   return (
     <Box>
       <Box
