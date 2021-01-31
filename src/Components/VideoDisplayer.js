@@ -31,7 +31,7 @@ function VideoDisplayer(props) {
           class = "vid"
             width="560"
             height="315"
-            src={props.source ? props.source.concat("?&autoplay=1&muted=1&showinfo=0&rel=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none") : 'https://player.vimeo.com/video/506326794'.concat("?&autoplay=1&&rel=0&showinfo=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none")}
+            src={props.source ? props.source.concat("?&autoplay=1&showinfo=0&rel=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none") : 'https://player.vimeo.com/video/506326794'.concat("?&autoplay=1&&rel=0&showinfo=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none")}
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen="allowfullscreen"
