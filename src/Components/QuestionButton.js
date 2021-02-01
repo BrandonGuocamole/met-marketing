@@ -50,7 +50,7 @@ function QuestionButton(props) {
             <Box
               bg="white"
               w="60vw"
-              h="70vh"
+              h="77vh"
               position="fixed"
               top="50%"
               left="50%"
@@ -96,6 +96,7 @@ function QuestionButton(props) {
               </AspectRatio>
               <br />
               {props.title}
+              <br />
             </Box>
           </Box>
 

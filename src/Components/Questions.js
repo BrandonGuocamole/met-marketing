@@ -30,11 +30,11 @@ function Questions (props) {
         {id: 17, title: 'Business Careers', source:'https://player.vimeo.com/video/506324335', icon: 'https://i.imgur.com/k4nfqGm.png'},
         {id: 18, title: 'Kleiner Perkins Fellows Internships', source:'https://player.vimeo.com/video/506325948', icon: 'https://i.imgur.com/vzj0e8N.png'},
         {id: 19, title: 'YCombinator and Skydeck Guaranteed Internships', source:'https://player.vimeo.com/video/506332178', icon: 'https://i.imgur.com/LL7k3Hy.png'},
-        {id: 20, title: 'EECS & Business', source:'https://player.vimeo.com/video/506325178', icon: 'https://i.imgur.com/73qXgjh.png'},
-        {id: 21, title: 'BioE & Business', source:'https://player.vimeo.com/video/506323805', icon: 'https://static.thenounproject.com/png/2725688-200.png'},
-        {id: 22, title: 'MechE & Business', source:'https://player.vimeo.com/video/506326397', icon: 'https://static.thenounproject.com/png/2464439-200.png'},
-        {id: 23, title: 'IEOR & Business', source:'https://player.vimeo.com/video/506325557', icon: 'https://i.pinimg.com/originals/df/2d/eb/df2deb53719aa039c92d326bc405b565.png'},
-        {id: 24, title: 'MSE & Business', source:'https://player.vimeo.com/video/506326366', icon: 'https://i.imgur.com/XVjl9UR.png'},
+        {id: 20, title: 'EECS + Business', source:'https://player.vimeo.com/video/506325178', icon: 'https://i.imgur.com/73qXgjh.png'},
+        {id: 21, title: 'BioE + Business', source:'https://player.vimeo.com/video/506323805', icon: 'https://static.thenounproject.com/png/2725688-200.png'},
+        {id: 22, title: 'MechE + Business', source:'https://player.vimeo.com/video/506326397', icon: 'https://static.thenounproject.com/png/2464439-200.png'},
+        {id: 23, title: 'IEOR + Business', source:'https://player.vimeo.com/video/506325557', icon: 'https://i.pinimg.com/originals/df/2d/eb/df2deb53719aa039c92d326bc405b565.png'},
+        {id: 24, title: 'MSE + Business', source:'https://player.vimeo.com/video/506326366', icon: 'https://i.imgur.com/XVjl9UR.png'},
 
     ]
 

@@ -47,7 +47,7 @@ function ChatButton() {
                   background: '#F5F5F5',
                   color: '#000000',
               }}
-          > Join the M.E.T. Facebook Admit Group </Button>
+          > Join the M.E.T. Admit Facebook Group </Button>
         </a>
       </Flex>
     </Center>
