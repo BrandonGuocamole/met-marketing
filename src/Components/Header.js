@@ -27,27 +27,33 @@ function Header() {
           </Box>
 
           <Box marginX="10vw" marginTop="1%" fontSize={20} fontWeight={300}>
-            Congratulations! Your admittance to M.E.T. has given you the unique
-            opportunity to study both technology and business, earning two
-            degrees in four years in an intimate setting with unparalleled
-            resources and a cohort of 50 like minded dual-passioned individuals,
-            all within the number one public university in the world with the
-            scope and scale to offer everything you can imagine.
+            Congratulations!
+          </Box>
+
+          <Box marginX="10vw" marginTop="1%" fontSize={20} fontWeight={300}>
+          Your admittance to M.E.T. gives you the unique opportunity to study 
+          both technology and business, earning two degrees in four years in an intimate 
+          private setting with unparalleled resources and a cohort of 50 equally 
+          dual-passioned individuals, all within the number one public research university in the world.
           </Box>
           <Box marginX="10vw" marginTop="25px" fontSize={20} fontWeight={300}>
-            The breadth and depth of careers that will be available starting
-            with your freshman year internship will allow you to focus on roles
-            from technology to business or in between such as product
-            management.
+          The breadth and depth of career paths and opportunities that will be available 
+          starting with your freshman year internship will allow you to launch your career in 
+          technology, business, or the intersection of the two.  M.E.T. students have consistently 
+          flourished in this exclusive intersection usually only available to those with an 
+          engineering undergraduate degree and an MBA, succeeding in roles like Product Manager 
+          and positioning themselves as future founders and CEOs.
           </Box>
           <Box marginX="10vw" marginTop="25px" fontSize={20} fontWeight={300}>
-            Click on the links below to learn directly from M.E.T. students
-            about their experiences to help you make the most informed decision
-            by learning everything there is about M.E.T. If you are one of the
-            few who is as excited about technology and engineering as you are
-            about management, leadership, and entrepreneurship, we created this
-            program just for you.
+          We are as optimistic as you are about the opportunity ahead, and we want to 
+          help you make the most informed decision possible.  Explore the links below listen to 
+          M.E.T. students share insights from their dual-degree M.E.T. journeys and what it has done for them. 
           </Box>
+          <Box marginX="10vw" marginTop="25px" fontSize={20} fontWeight={300}>
+          If you are one of the few who understand the remarkable and transformative 
+          potential that exists at the intersection of management, entrepreneurship, and technology -- then
+          we created this program just for you.
+          </Box>          
         </Box>
       </Center>
     </Box>

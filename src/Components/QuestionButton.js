@@ -50,7 +50,7 @@ function QuestionButton(props) {
             <Box
               bg="white"
               w="60vw"
-              h="70vh"
+              h="77vh"
               position="fixed"
               top="50%"
               left="50%"
@@ -85,7 +85,7 @@ function QuestionButton(props) {
                       ? props.source.concat(
                           "?&autoplay=1&&showinfo=0&rel=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none"
                         )
-                      : "https://www.youtube.com/embed/eqYmOqY2mIE".concat(
+                      : "https://player.vimeo.com/video/506326794".concat(
                           "?&autoplay=1&&rel=0&showinfo=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none"
                         )
                   }
@@ -96,6 +96,7 @@ function QuestionButton(props) {
               </AspectRatio>
               <br />
               {props.title}
+              <br />
             </Box>
           </Box>
 
