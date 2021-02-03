@@ -30,7 +30,7 @@ function QuestionButton(props) {
       >
         <Box h="10%" />
         <Image src={props.icon} h="60%" margin="0 auto" />
-        <Box fontSize="1.4rem" textAlign="center">
+        <Box fontSize="1.2rem" textAlign="center">
           <Center>{props.title}</Center>
         </Box>
       </Box>

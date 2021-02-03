@@ -11,7 +11,7 @@ function Questions (props) {
     // Currently this is set up to take in as many questions as needed. The question boxes are of a fixed sized but will rearrange to fit multiple layouts because of a flex component.
 
     const questionList = [
-        {id: 1, title: 'Dual Degree', icon: 'https://i.imgur.com/wWSgQi7.png'},
+        {id: 1, title: 'Dual Degree Fast Track to Technical Leadership', icon: 'https://i.imgur.com/wWSgQi7.png'},
         {id: 2, title: 'Small School within World Class University', source: 'https://www.youtube.com/embed/vS7qBBiJU2E', icon: 'https://i.imgur.com/Ahg0M0n.png'},
         {id: 3, title: 'M.E.T. Students', source: 'https://www.youtube.com/embed/wutiE65RsXk', icon: 'https://image.flaticon.com/icons/png/512/14/14598.png'},
         {id: 4, title: 'Resources', source:'https://www.youtube.com/embed/PX9Qlpns_3Q', icon: 'https://static.thenounproject.com/png/3031208-200.png'},
