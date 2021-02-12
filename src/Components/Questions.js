@@ -27,7 +27,7 @@ function Questions (props) {
         {id: 13, title: 'Recruiting', source: 'https://player.vimeo.com/video/511435162', icon: 'https://i.imgur.com/UjuEBMk.png'},
         {id: 14, title: 'Technology Careers', source:'https://player.vimeo.com/video/511436756', icon: 'https://i.imgur.com/CL0wwhn.png'},
         {id: 15, title: 'BioTech and MedTech Careers', source:'https://player.vimeo.com/video/511443056', icon: 'https://i.imgur.com/PcDTCfS.png'},
-        {id: 16, title: 'Technology + Business Careers', source:'https://player.vimeo.com/video/511444380', icon: 'https://i.imgur.com/4HLiW4R.png'},
+        {id: 16, title: 'Technology + Business Careers', source:'https://player.vimeo.com/video/511786969', icon: 'https://i.imgur.com/4HLiW4R.png'},
         {id: 17, title: 'Business Careers', source:'https://player.vimeo.com/video/511443426', icon: 'https://i.imgur.com/k4nfqGm.png'},
         {id: 18, title: 'Kleiner Perkins Fellows Internships', source:'https://player.vimeo.com/video/511447059', icon: 'https://i.imgur.com/vzj0e8N.png'},
         {id: 19, title: 'YCombinator and SkyDeck Guaranteed Internships', source:'https://player.vimeo.com/video/511446561', icon: 'https://i.imgur.com/LL7k3Hy.png'},
