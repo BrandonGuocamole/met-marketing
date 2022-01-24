@@ -20,7 +20,7 @@ function Questions (props) {
         {id: 6, title: 'Startups', source: 'https://player.vimeo.com/video/659702669?h=6c97b1b7ea', icon: 'https://static.thenounproject.com/png/843013-200.png'},
         {id: 7, title: 'Berkeley, Bay Area & Silicon Valley', source: 'https://player.vimeo.com/video/659700792?h=4ffb6f66d7', icon: 'https://i.imgur.com/H0eJbPJ.png'},
         {id: 8, title: 'M.E.T. Community', source:'https://player.vimeo.com/video/659711027?h=99cff29f99', icon: 'https://i.imgur.com/cpjukm0.png'},
-        {id: 9, title: 'Choosing M.E.T.', source:'https://player.vimeo.com/video/659714707?h=e7819902d0', icon: 'https://static.thenounproject.com/png/972712-200.png'},
+        {id: 9, title: 'Choosing M.E.T.', source:'https://player.vimeo.com/video/669226849?h=45833a001b', icon: 'https://static.thenounproject.com/png/972712-200.png'},
         {id: 10, title: 'Research', source: 'https://player.vimeo.com/video/659706759?h=b6681a046e', icon: 'https://i.imgur.com/ByQmY9l.png'},
         {id: 11, title: 'Diversity and Social Impact', source: 'https://player.vimeo.com/video/511412074', icon: 'https://static.thenounproject.com/png/1711240-200.png'},
         {id: 12, title: 'Extracurriculars', source:'https://player.vimeo.com/video/659708067?h=788de2df93', icon: 'https://i.imgur.com/MN8pekf.png'},
