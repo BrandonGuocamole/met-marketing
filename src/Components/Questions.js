@@ -14,7 +14,7 @@ function Questions (props) {
 
         {id: 1, title: 'Dual Degree', source:'https://player.vimeo.com/video/659705968?h=a794b8e1bd', icon: 'https://i.imgur.com/o3o2LX6.png'},
         {id: 2, title: 'Small School within World Class University', source: 'https://player.vimeo.com/video/511389493', icon: 'https://i.imgur.com/dDb39hY.png'},
-        {id: 3, title: 'M.E.T. Students', source: 'https://player.vimeo.com/video/659705099?h=d2bb63752b', icon: 'https://image.flaticon.com/icons/png/512/14/14598.png'},
+        {id: 3, title: 'M.E.T. Students', source: 'https://player.vimeo.com/video/659705099?h=d2bb63752b', icon: 'https://i.imgur.com/bUuzJnr.png'},
         {id: 4, title: 'Resources', source:'https://player.vimeo.com/video/659704326?h=226f11a564', icon: 'https://static.thenounproject.com/png/3031208-200.png'},
         {id: 5, title: 'The M.E.T. Challenge', source:'https://player.vimeo.com/video/659700049?h=f40dcc58a9', icon: 'https://i.imgur.com/Mukus1Y.png'},
         {id: 6, title: 'Startups', source: 'https://player.vimeo.com/video/659702669?h=6c97b1b7ea', icon: 'https://static.thenounproject.com/png/843013-200.png'},
