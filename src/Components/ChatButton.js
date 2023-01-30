@@ -5,7 +5,7 @@ function ChatButton() {
   return (
     <Center>
         <Flex justifyContent='center' flexWrap='wrap'>
-        <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSdbrdoYgxAM2T5jJJDXKNvC6NfVn_nVSt1FalxUpslE1eoqzg/viewform">
+        <a target="_blank" rel="noreferrer" href="https://met.berkeley.edu/about-met/contact/">
           <Button
               bg='#3B7EA1'
               color='white'
