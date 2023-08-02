@@ -29,7 +29,7 @@ function App() {
   const [unlocked, setUnlocked] = React.useState(false);
   const toast = useToast();
 
-  const correctPassword = ["berkeleymet2027"];
+  const correctPassword = ["berkeleymet2028"];
 
   const onPasswordSubmit = () => {
     if (correctPassword.includes(password)) {
