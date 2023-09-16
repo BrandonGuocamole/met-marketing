@@ -10,7 +10,7 @@ function Internships () {
                 </Box>
             </Center>
             <Center>
-                <Image src='https://i.imgur.com/licyXmI.jpg'/>
+                <Image src='https://i.imgur.com/f10VlGE.jpg'/>
             </Center>
         </Box>
     )
