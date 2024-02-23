@@ -1,15 +1,27 @@
 import React from "react";
-import { Box, Center, Image, Button, AspectRatio } from "@chakra-ui/react";
+import { Box, Center, Image, Button, AspectRatio, Flex } from "@chakra-ui/react";
+import QuestionButton from './QuestionButton.js'
 
-function QuestionButton(props) {
+function CareersButton(props) {
   // This is where the majority of the code/logic is implemented currently.
   // Each question button shows the icon and text passed in through the props currently.
   // This component also renders the VideoDisplayer component when clicked.
+
+  const questionList = [
+    {id: 1, title: 'Technology Careers', source:'https://player.vimeo.com/video/911960572?h=aa3409b827', icon: 'https://i.imgur.com/CL0wwhn.png'},
+    {id: 2, title: 'BioTech and MedTech Careers', source:'https://player.vimeo.com/video/911951036?h=5d447d5c21', icon: 'https://i.imgur.com/PcDTCfS.png'},
+    {id: 3, title: 'Technology + Business Careers', source:'https://player.vimeo.com/video/911950609?h=ba2256596c', icon: 'https://i.imgur.com/4HLiW4R.png'},
+    {id: 4, title: 'Business Careers', source:'https://player.vimeo.com/video/911951094?h=fa31d0ec0e', icon: 'https://i.imgur.com/k4nfqGm.png'},
+  ]
 
   const [showVideo, setShowVideo] = React.useState(false);
   function toggleVideo() {
     setShowVideo(!showVideo);
   }
+
+  const questionButtons = questionList.map((buttonInfo) => 
+    <QuestionButton source={buttonInfo.source} key={buttonInfo.id} title={buttonInfo.title} icon={buttonInfo.icon} isCareer={true}/>
+  )
 
   return (
     <Box>
@@ -44,7 +56,7 @@ function QuestionButton(props) {
             top={0}
             right={0}
             bottom={0}
-            bg={!props.isCareer ? "rgba(0, 0, 0, 0.3)" : "transparent"}
+            bg="rgba(0, 0, 0, 0.3)"
             hidden={props.hidden}
           >
             <Box
@@ -74,29 +86,20 @@ function QuestionButton(props) {
                 Close
               </Button>
               <Box h="10vh" />
-              <AspectRatio maxW="70%" maxH="70%" margin="0 auto">
-                <iframe
-                  class="vid"
-                  width="560"
-                  height="315"
-                  title='video'
-                  src={
-                    props.source
-                      ? props.source.concat(
-                          "?&autoplay=1&&showinfo=0&rel=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none"
-                        )
-                      : "https://player.vimeo.com/video/506326794".concat(
-                          "?&autoplay=1&&rel=0&showinfo=0&disablekb=1&iv_load_policy=3&modestbranding=1&pointer-events=none"
-                        )
-                  }
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen="allowfullscreen"
-                ></iframe>
-              </AspectRatio>
               <br />
-              {props.title}
+              M.E.T. Career Paths
               <br />
+              <Box h="2vh" />
+              <Center>
+              <Flex
+                flexWrap='wrap'
+                w='70%'
+                justifyContent='center'
+            >
+                {questionButtons}
+            </Flex>
+            </Center>
+
             </Box>
           </Box>
 
@@ -106,4 +109,4 @@ function QuestionButton(props) {
   );
 }
 
-export default QuestionButton;
+export default CareersButton;
