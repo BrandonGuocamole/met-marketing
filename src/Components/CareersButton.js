@@ -19,8 +19,15 @@ function CareersButton(props) {
     setShowVideo(!showVideo);
   }
 
+  const modalRef = React.useRef(null); // Create a ref
+  const scrollToTop = () => {
+    if (modalRef.current) {
+      modalRef.current.scrollTo(0, 0); // Scroll to the top of the modal
+    }
+  };
+
   const questionButtons = questionList.map((buttonInfo) => 
-    <QuestionButton source={buttonInfo.source} key={buttonInfo.id} title={buttonInfo.title} icon={buttonInfo.icon} isCareer={true}/>
+    <QuestionButton source={buttonInfo.source} key={buttonInfo.id} title={buttonInfo.title} icon={buttonInfo.icon} isCareer={true} onClick={() => scrollToTop()}/>
   )
 
   return (
@@ -61,8 +68,10 @@ function CareersButton(props) {
           >
             <Box
               bg="white"
-              w="60vw"
+              w={["100vw", "100vw", "60vw"]} // 100% width on smaller screens, 60vw on larger screens
               h="77vh"
+              overflowY="auto" // Allows scrolling
+              ref={modalRef}
               position="fixed"
               top="50%"
               left="50%"

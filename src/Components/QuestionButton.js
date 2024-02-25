@@ -11,6 +11,14 @@ function QuestionButton(props) {
     setShowVideo(!showVideo);
   }
 
+  const handleClick = () => {
+    if (props.onClick) {
+      props.onClick();
+    }
+    // Your existing toggle logic
+    toggleVideo();
+  };
+
   return (
     <Box>
       <Box
@@ -26,7 +34,7 @@ function QuestionButton(props) {
           background: "#0C3E73",
           color: "#FFFFFF",
         }}
-        onClick={toggleVideo}
+        onClick={handleClick}
       >
         <Box h="10%" />
         <Image src={props.icon} h="60%" margin="0 auto" />
@@ -49,8 +57,9 @@ function QuestionButton(props) {
           >
             <Box
               bg="white"
-              w="60vw"
+              w={["100vw", "100vw", "60vw"]} // 100% width on smaller screens, 60vw on larger screens
               h="77vh"
+              overflowY="auto" // Allows scrolling
               position="fixed"
               top="50%"
               left="50%"
