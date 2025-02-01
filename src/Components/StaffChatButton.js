@@ -5,7 +5,7 @@ function StaffChatButton() {
   return (
       <a
         target="_blank"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSc3hvC74R6LCtXgaz8YGBiyhwps7cmpkuOOTEQ5kqu8FpHLCA/viewform"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScCeoeQrzclXH2_icqokqUUtvAyIY38Mv6sikeS2JxIrb1Z1g/viewform"
       >
         <Button
           bg="#3B7EA1"
